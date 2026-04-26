@@ -1,7 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("go dojo")
+	sum := 0
+	i := 0
+	for i < 10 {
+		sum += i
+		i++
+
+	}
+	fmt.Println(sum)
+
 }
