@@ -11,6 +11,8 @@ func main() {
 
 	fmt.Println(UserDetails{"asif", 26, 5.11})
 	user := UserDetails{"asif", 26, 5.11}
-	fmt.Println(user.Name)
+	p := &user
+	p.Name = "jhon"
+	fmt.Println(user)
 
 }
