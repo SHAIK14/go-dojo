@@ -2,12 +2,24 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println("start")
+var score int = 10
 
-	for i := 0; i < 10; i++ {
-		defer fmt.Println(i)
-	}
-	fmt.Println("end")
+func addscore(x int) int {
+	x += 5
+	return x
+
+}
+
+func addscoreP(p *int) {
+	*p += 5
+
+}
+
+func main() {
+
+	score = addscore(score)
+	fmt.Println(score)
+	addscoreP(&score)
+	fmt.Println(score)
 
 }
