@@ -14,5 +14,6 @@ func main() {
 	p := &user
 	p.Name = "jhon"
 	fmt.Println(user)
+	arrr()
 
 }
