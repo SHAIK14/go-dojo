@@ -3,8 +3,10 @@ package main
 import "fmt"
 
 func arrr() {
-	arr := []int{1, 2, 3, 4, 5, 6}
+	var arr []int
 	fmt.Println(arr)
-	a := arr[:2]
-	fmt.Println(a)
+
+	arr = append(arr, 1)
+	fmt.Println(arr)
+
 }
