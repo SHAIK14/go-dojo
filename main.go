@@ -15,5 +15,6 @@ func main() {
 	p.Name = "jhon"
 	fmt.Println(user)
 	arrr()
+	mapp()
 
 }
