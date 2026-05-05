@@ -16,5 +16,6 @@ func main() {
 	fmt.Println(user)
 	arrr()
 	mapp()
+	shapecal()
 
 }
