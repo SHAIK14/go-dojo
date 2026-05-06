@@ -17,5 +17,6 @@ func main() {
 	arrr()
 	mapp()
 	shapecal()
+	goroute()
 
 }
