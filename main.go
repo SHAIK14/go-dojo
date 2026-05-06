@@ -18,5 +18,6 @@ func main() {
 	mapp()
 	shapecal()
 	goroute()
+	goChannel()
 
 }
